@@ -26,12 +26,11 @@ module MandarinSoda
           raise ChimpConfigError, 'A mailing list id is required to subscribe a user.  See README.'
         end
         
-         if options[:mail_merge].nil?
+        if options[:mail_merge].nil?
             raise ChimpConfigError, 'Some mail merge arguments are required to subscribe a user.  See README and check your MailChimp config.'
         end
         
         self.options = options 
-        after_destroy :remove_from_mailing_list
       end 
       
     end 

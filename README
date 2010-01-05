@@ -1,6 +1,6 @@
 Redstorm fork
 ================
-the method 'acts_as_chimp' no longer automatically adds the after_create hook 'add_to_mailchimp'
+the method 'acts_as_chimp' no longer automatically adds the after_create hook 'add_to_mailchimp' or the after_destroy 'remove_from_mailing_list', the latter was a typo for 'remove_from_mailchimp'
 
 ActsAsChimp
 ===========
