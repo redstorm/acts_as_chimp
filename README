@@ -1,3 +1,7 @@
+Redstorm fork
+================
+the method 'acts_as_chimp' no longer automatically adds the after_create hook 'add_to_mailchimp'
+
 ActsAsChimp
 ===========
 

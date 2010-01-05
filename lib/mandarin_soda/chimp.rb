@@ -31,7 +31,6 @@ module MandarinSoda
         end
         
         self.options = options 
-        after_create :add_to_mailchimp
         after_destroy :remove_from_mailing_list
       end 
       
